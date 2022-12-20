@@ -50,8 +50,7 @@ Users should be able to:
 ### What I learned
 
 I gained and revised so much knowledge by doing this project but I beileved the thing Istruggled with the most was overthinking it. The follow paragraphs serve as an example of how I was truly overthinking alot of the building process.
-
-     One of my best examples of over thinking was when I started focusing on the hero image and its hover state. In my mind I wanted to create a div that I would later set the background image for with css and nested in that div would be another div containing the svg. My original thoughts were to set the display to none on the nested div and then use the hover pseudo-class to make it reappear.. I thought I could use diplay block for this lol. Here is what that original code looked like as well a screenshot of the outcome:
+  - One of my best examples of over thinking was when I started focusing on the hero image and its hover state. In my mind I wanted to create a div that I would later set the background image for with css and nested in that div would be another div containing the svg. My original thoughts were to set the display to none on the nested div and then use the hover pseudo-class to make it reappear.. I thought I could use diplay block for this lol. Here is what that original code looked like as well a screenshot of the outcome:
 
 ```html
 <div class="hero-image">
@@ -75,9 +74,9 @@ I gained and revised so much knowledge by doing this project but I beileved the 
   ect.
 }
 ```
-![](.images/Screenshot%202022-12-20%20at%203.15.23%20PM.png)
+![](.images/Screenshot-1.png)
 
-      I realized using display none was not working and decided to try using opacity instead. It was perfect I set hover to opacity of 0 and and used the hover puesdo class to set its opacity to 1. here is what that looked like as well a screenshot of the outcome:
+  - I realized using display none was not working and decided to try using opacity instead. It was perfect I set hover to opacity of 0 and and used the hover puesdo class to set its opacity to 1. here is what that looked like as well a screenshot of the outcome:
 
 ```html
 <div class="hero-image">
@@ -105,7 +104,7 @@ I gained and revised so much knowledge by doing this project but I beileved the 
 ```
 ![](.images/Screenshot-2.png)
 
-      This would have been perfect but I hit another road block. When I put the entire div to an opacity of 1 the backgroud color of the div was also an opacity of 1. It took me a long time to figure out how I could get the svg to an opacity of 1 while making the opacity of the BG-color more like  .50 % and finally it dawned on me. I had been overthinking the entire thing. My reslolution was to change the background color it self by adding an opacity of .5 to it. I FIXED IT :D Here is what the code looked like as well a screenshot of the outcome:
+  - This would have been perfect but I hit another road block. When I put the entire div to an opacity of 1 the backgroud color of the div was also an opacity of 1. It took me a long time to figure out how I could get the svg to an opacity of 1 while making the opacity of the BG-color more like  .50 % and finally it dawned on me. I had been overthinking the entire thing. My reslolution was to change the background color it self by adding an opacity of .5 to it. I FIXED IT :D Here is what the code looked like as well a screenshot of the outcome:
 
 ```html
 <div class="hero-image">
