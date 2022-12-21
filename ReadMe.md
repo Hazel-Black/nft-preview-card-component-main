@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [nft-preview-card-component-main](https://www.frontendmentor.io/solutions/nft-preview-card-component-Jw0nmIsAt3)
 - Live Site URL: [nft-preview-card-component-main](https://hazel-black.github.io/nft-preview-card-component-main/)
 
 ## My process
