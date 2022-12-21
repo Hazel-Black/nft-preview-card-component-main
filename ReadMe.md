@@ -75,7 +75,7 @@ I gained and revised so much knowledge by doing this project but I beileved the 
   ect.
 }
 ```
-![](./images/Screenshot%202022-12-20%20at%203.15.23%20PM.png)
+![](./images/Screenshot-1.png.png)
 
       I realized using display none was not working and decided to try using opacity instead. It was perfect I set hover to opacity of 0 and and used the hover puesdo class to set its opacity to 1. here is what that looked like as well a screenshot of the outcome:
 
